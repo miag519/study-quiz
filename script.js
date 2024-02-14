@@ -1,8 +1,9 @@
 $(document).ready(function(){
   $("button").click(function(){
-	$(this).siblings().filter(".correct").css({background": "green"});
-	$(this).siblings().filter(".answeroption").css({removeClass("grey"});
+    $(".answeroption").css("background-color", "white");
+    $(".correct").css("background-color", "lightgreen");
   });
+  
    $(".answeroption").click(function(){
     $(this).toggleClass("grey");
   });
