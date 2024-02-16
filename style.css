@@ -1,16 +1,42 @@
 body{
-	background-color:
+	background-color: #dad4ef;
+	color: #654cbd;
+	text-align: center;
 }
 
 h1{
-	text-align: center;
+  border-style: dotted;
+  border-width: thick;
+  border-color: #6a994e;
 }
-h2{
+h3{
+  color: #6a994e;
+}
+.red{
   color: red;
 }
-.green {
-  background-color: green;
+.yellow {
+	background-color: #f2e8cf;
 }
-.grey {
-	background-color: lightgrey;
+.answeroption {
+ cursor: pointer;
+}
+.correct {
+ cursor: pointer;
+}
+.button {
+  padding: 13px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #04AA6D;
+}
+.button1:hover {
+  background-color: #04AA6D;
+  color: white;
 }
