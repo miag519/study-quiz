@@ -1,17 +1,27 @@
 body{
-	background-color:
+	background-color: #dad4ef;
+	color: #654cbd;
+	text-align: center;
 }
 
 h1{
-	text-align: center;
+  border-style: dotted;
+  border-width: thick;
+  border-color: #6a994e;
+}
+h3{
+  color: #6a994e;
 }
 .red{
   color: red;
 }
-.grey {
-	background-color: lightgrey;
+.yellow {
+	background-color: #f2e8cf;
 }
 .answeroption {
+ cursor: pointer;
+}
+.correct {
  cursor: pointer;
 }
 .button {
