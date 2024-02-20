@@ -10,6 +10,5 @@ $(document).ready(function(){
     $(".correct").click(function(){
     $(this).css("background-color", "lightgreen");
   });
-  
-  
+
 });
